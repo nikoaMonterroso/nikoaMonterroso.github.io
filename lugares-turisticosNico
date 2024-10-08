@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sololá Sagastume</title>
+   <link rel="stylesheet" href="indexNico.css">
+</head>
+<body>
+    <header><h1>sololá</h1></header>
+    <div class="navbar">
+        <a href="INDEXNICO.html">Inicio</a>
+        <a href="comida.html">Comida Típica</a>
+        <a href="tradiciones.html">Tradiciones</a>
+        <a href="costumbres.html">Costumbres</a>
+        <a href="galería.html">Galería</a>
+        <a href="independencia.html">independencia</a>
+    </div>
+<h1>lugares turisticosNico</h1>
+
+        <div class="play-button">
+            <img src="play-button.png" alt="Play Button">
+        </div>
+        <div class="footer">
+            Powered by Sololá Sagastume
+        </div>
+    </body>
+    </html>
+    

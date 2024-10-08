@@ -1,0 +1,108 @@
+
+/* Estilo de fondo general del documento */
+html {
+    background-color: rgb(249, 251, 231);
+}
+
+/* Centrado del encabezado */
+header {
+    position: relative;
+    text-align: center;
+}
+
+/* Estilo general del cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para títulos */
+h1, h2 {
+    font-family: 'Lobster', cursive;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #333;
+    padding-left: 200px; /* Margen izquierdo para centrar los enlaces */
+    overflow: hidden; /* Evita que el contenido adicional desborde */
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+.navbar a {
+    float: left; /* Alinea los enlaces en fila horizontal */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Efecto hover en los enlaces de la barra de navegación */
+.navbar a:hover {
+    background-color: rgb(255, 255, 204); /* Cambia el fondo al pasar el mouse */
+    color: #333;
+    transform: scale(1.2); /* Aumenta ligeramente el tamaño */
+    transition: all 0.3s ease; /* Suaviza la transición */
+}
+
+/* Contenedor principal que divide la página en dos columnas */
+.container {
+    display: flex; /* Alineación en fila */
+    padding: 20px;
+}
+
+/* Columna izquierda (principal) */
+.left {
+    flex: 70%; /* Ocupa el 70% del ancho */
+    padding: 20px;
+}
+
+/* Columna derecha (imágenes) */
+.right {
+    flex: 30%; /* Ocupa el 30% del ancho */
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+/* Ajuste de las imágenes en la columna derecha */
+.right img {
+    width: 100%; /* Imagen ocupa el ancho completo de su contenedor */
+    height: auto; /* Mantiene la proporción */
+    margin-bottom: 10px; /* Espacio entre imágenes */
+}
+
+/* Estilo de hover para las imágenes */
+.foto {
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    cursor: pointer; /* Cambia a un cursor de mano */
+}
+
+.foto:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    transition: all 0.3s ease; /* Suaviza la transición */
+}
+
+/* Estilo de la sección de video */
+.video1 {
+    margin: 20px auto; /* Centra el video */
+    display: block;
+    box-shadow: 5px 8px 8px 3px rgba(0, 0, 0, 0.2); /* Sombra del video */
+}
+
+/* Estilo del pie de página */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Fija el pie de página en la parte inferior */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para los párrafos */
+p {
+    text-align: justify; /* Justifica el texto para una alineación uniforme */
+}

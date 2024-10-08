@@ -1,0 +1,94 @@
+html{
+    background-color: rgb(133, 193, 233);
+}
+
+header{
+    position: relative;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    font-family: 'Lobster', cursive;
+}
+.navbar {
+    background-color: #333;
+    padding-left: 200px;
+    overflow: hidden;
+}
+.navbar a {
+    
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+   
+   background-color:rgb(255, 255, 204);
+   color: #333;
+    transform: scale(1.2);
+    transition: all 0.10 ease 1s;
+
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+.left {
+    flex: 70%;
+    padding: 20px;
+}
+.right{
+    position: relative;
+    left: 200px;
+    padding-bottom: 10px;
+}
+.right img {
+    width: 50%;
+    height: auto;
+}
+
+.img-izquierda{
+    box-shadow: 2px 5px 5px 2px;
+    transform: scale(1.2);
+    transition: all 0.10 ease 1s;
+    padding: 10px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+p {
+    text-align: justify;
+
+}
+
+.video1{
+    position: relative;
+    top: 50px;
+    left:150px;
+    box-shadow: 5px 8px 8px 3px;
+}
+
+.foto{
+    box-shadow: 2px 5px 5px 2px;
+    cursor: pointer;
+}
+
+.foto:hover{
+    transform: scale(1.1);
+    transition: all 0.10 ease 1s;
+}

@@ -1,0 +1,94 @@
+
+html{
+  background-color: rgb(249, 251, 231)
+}
+
+header{
+  position: relative;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  
+}
+.navbar {
+  background-color: #333;
+  padding-left: 200px;
+  overflow: hidden;
+}
+.navbar a {
+  
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+ 
+ background-color:rgb(255, 255, 204);
+ color: #333;
+  transform: scale(1.2);
+  transition: all 0.10 ease 1s;
+}
+aside {
+  width: 35%;
+}
+
+article {
+  width: 50%;
+}
+
+article,
+aside {
+  padding: 1%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+
+img {
+  padding: 4px;
+  overflow: hidden;
+  box-shadow: 2px 5px 5px 2px;
+  cursor: pointer;
+}
+
+.titleT {
+  text-align: center;
+}
+.santos{
+  background-color: rgb(249, 231, 159);
+  cursor: pointer;
+}
+
+.santos:hover{
+  transform: translateY(-5px);
+}
+
+.siembra{
+  color: white;
+  background-color: rgb(22, 160, 133);
+  cursor: pointer;
+}
+.siembra:hover{
+  transform: translateY(-5px);
+}
+.cruz{
+  color: black;
+  background-color: rgb(236, 240, 241);
+  cursor: pointer;
+}
+.cruz:hover{
+  transform: translateY(-5px);
+}
+
+

@@ -1,0 +1,96 @@
+/* Estilo general del fondo de la página */
+html {
+    background-color: rgb(249, 251, 231);
+}
+
+/* Estilo para el encabezado */
+header {
+    position: relative;
+    text-align: center;
+}
+
+/* Estilo del cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para los títulos h1 y h2 */
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #333;
+    padding-left: 200px;
+    overflow: hidden;
+}
+
+/* Estilo para los enlaces dentro de la barra de navegación */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Efecto al pasar el cursor sobre los enlaces de la barra de navegación */
+.navbar a:hover {
+    background-color: rgb(255, 255, 204);
+    color: #333;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Resetear márgenes y rellenos para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el contenedor de las imágenes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    grid-gap: 20px; /* Espacio entre las imágenes */
+    padding: 50px; /* Reducir el padding para que se vea mejor */
+}
+
+/* Estilo para las imágenes dentro de las cajas */
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que la imagen se ajuste dentro del contenedor manteniendo su relación de aspecto */
+}
+
+/* Configuración de la primera imagen para que ocupe dos columnas */
+.box:nth-child(1) {
+    grid-column: span 2; /* La imagen ocupa dos columnas */
+}
+
+/* Configuración de la cuarta imagen para que ocupe dos columnas */
+.box:nth-child(4) {
+    grid-column: span 2; /* La imagen ocupa dos columnas */
+}
+@media(max-width:991px){
+    .container{
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .box:nth-child(1){
+        grid-column-start: span 1;
+    
+    }
+    .box:nth-child(4){
+        grid-column-start: span 1;
+    }
+}
